@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!--Exercise #1-->
+    <form action="#" method="get">
+        <label>
+            Username
+            <input type="text" name="username">
+        </label>
+        <br>
+        <label>
+            Password
+            <input type="password" name="pw">
+        </label>
+        <br>
+        <input type="submit" value="login">
+    </form>
+    <hr>
+    <!--Exercise #2-->
+    <form action="#">
+        <fieldset>
+            <legend>Personal details</legend>
+            <label>
+                First name:
+                <input type="text" name="fname">
+            </label>
+            <br>
+            <label>
+                Last name:
+                <input type="text" name="lname">
+            </label>
+            <br>
+            <label>
+                Email:
+                <input type="email" name="email">
+            </label>
+            <br>
+            Gender:
+            <label>
+                <input type="radio" name="g">
+                Male:
+            </label>
+            <label>
+                <input type="radio" name="g">
+                Female:
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Magazinez</legend>
+            <label><input type="checkbox" name="c1">Stavanger Aftenblad</label><br>
+            <label><input type="checkbox" name="c1">Teknisk</label><br>
+            <label><input type="checkbox" name="c1">Se og Hor</label><br>
+            <label><input type="checkbox" name="c1">Familien</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Subscription</legend>
+            <label>Period
+                <input type="time" name="" id="">
+            </label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Subscribe">
+    </form>
+    <hr>
+    <!--Exercise #3-->
+    <form action="#">
+        <label>First Name<input type="text" required></label>
+        <label>Last Name<input type="text" required></label>
+        <label>Email<input type="email" required></label>
+    </form>
+</body>
+</html>
